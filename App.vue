@@ -1,12 +1,11 @@
 <template>
-  <ManagePieces />
+  <ApostropheManagePieces :chooserComponent="'AlternateChooser'" :browserComponent="'ApostropheBrowser'" />
 </template>
 <script>
-import ManagePieces from './components/ManagePieces'
+// eslint-disable-next-line no-unused-vars
+import ApostropheComponents from './ApostropheComponents.js'
+
 export default {
-  name: 'App',
-  components: {
-    ManagePieces
-  }
+  name: 'App'
 }
 </script>
